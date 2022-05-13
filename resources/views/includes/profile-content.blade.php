@@ -220,7 +220,7 @@
                         <h2>ACTIVE VEHICLES</h2>
                         <hr>
                         <div class="form-group col-sm-8 text-right">
-                            <button type="button" class="btn btn-default btn-sm ">ADD</button>
+                            <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#renewModal">ADD</button>
                         </div>
                         
                         @include('includes.vehicles_active')
@@ -235,7 +235,10 @@
                         <br>
                         <h2>INACTIVE VEHICLES</h2>
                         <hr>
-                        @include('includes.vehicles_inactive')
+                        <div class="form-group col-sm-8 text-right">
+                            <button type="button" class="btn btn-default btn-sm ">ADD</button>
+                        </div>
+                          @include('includes.vehicles_inactive')
                         <br>
                         <hr>
                     </div>

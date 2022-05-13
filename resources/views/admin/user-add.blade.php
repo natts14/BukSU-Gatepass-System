@@ -111,9 +111,9 @@
                         </div>
 
                         <div class="form-group col-sm-3">
-                            <label class="font-weight-bold">DOCUMENTS</label><br>
-                            <button type="button" class="btn btn-default btn-sm" name="licenseDocu"></button><i class="fas fa-paperclip"></i></button>
-                            <button type="button" class="btn btn-default btn-sm "></button><i class="fas fa-paperclip"></i></button>
+                           <label for="attachedoc" class="font-weight-bold">ATTACH DOCUMENT</label><br>
+                            <input type="file" name="document" id="document">
+                            <!-- <button type="button" class="btn btn-default btn-sm " onclick=""><i class="fas fa-paperclip"></i></button> -->
                         </div>
                     </div>
                 </div>
@@ -139,9 +139,9 @@
                         </div>
 
                         <div class="form-group col-sm-3">
-                            <label class="font-weight-bold">DOCUMENTS</label><br>
-                            <button type="button" class="btn btn-default btn-sm" name="licenseDocu"></button><i class="fas fa-paperclip"></i></button>
-                            <button type="button" class="btn btn-default btn-sm "></button><i class="fas fa-paperclip"></i></button>
+                           <label for="attachedoc" class="font-weight-bold">ATTACH DOCUMENT</label><br>
+                            <input type="file" name="document" id="document">
+                            <!-- <button type="button" class="btn btn-default btn-sm " onclick=""><i class="fas fa-paperclip"></i></button> -->
                         </div>
                     </div>
 
