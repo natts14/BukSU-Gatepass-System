@@ -26,7 +26,7 @@
 
             <hr><br>
             <footer class="container-fluid">
-                <!-- <label class="buksu-details">BUKSU CONTACT DETAILS</label> -->
+                <!-- <label class="buksu-details">BUKSU CONTACT DETAILS</label>adasd -->
             </footer>
         </div>
 
